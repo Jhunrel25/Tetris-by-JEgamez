@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <github.jhunrel25.tetris.BlockBoardView
+        android:id="@id/boardView"
+        android:background="@null"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.6">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="2.4">
+                <ImageButton
+                    android:id="@id/leftButton"
+                    android:clickable="true"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/left_jegamez"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="false"
+                    android:layout_weight="1.0"
+                    android:contentDescription="left move Button"
+                    style="@android:style/Widget.ImageWell" />
+                <View
+                    android:id="@id/View03"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1" />
+                <ImageButton
+                    android:id="@id/rightButton"
+                    android:clickable="true"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/right_jegamez"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1.0"
+                    android:contentDescription="right Move Button"
+                    style="@android:style/Widget.ImageWell" />
+            </LinearLayout>
+            <View
+                android:id="@id/View04"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="0.1" />
+            <ImageButton
+                android:id="@id/softDropButton"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:src="@drawable/soft_drop_jegamez"
+                android:scaleType="centerInside"
+                android:layout_weight="1.0"
+                android:contentDescription="soft Drop Button"
+                style="@android:style/Widget.ImageWell" />
+        </LinearLayout>
+        <View
+            android:id="@id/hdivider"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.1">
+            <Button
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/square_error"
+                android:textColorHint="@color/holo_grey"
+                android:id="@id/pausebutton_1"
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:text="@string/pausebutton"
+                android:layout_weight="0.0"
+                style="@android:style/Widget.ImageWell" />
+            <View
+                android:id="@id/View01"
+                android:layout_width="wrap_content"
+                android:layout_height="8.0dip"
+                android:layout_weight="0.0" />
+        </LinearLayout>
+        <View
+            android:id="@id/View02"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/LinearLayout2"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="2.4">
+                <ImageButton
+                    android:id="@id/rotateLeftButton"
+                    android:clickable="true"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/rotate_left_jegamez"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1.0"
+                    android:contentDescription="rotate left Button"
+                    style="@android:style/Widget.ImageWell" />
+                <View
+                    android:id="@id/View07"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1" />
+                <ImageButton
+                    android:id="@id/rotateRightButton"
+                    android:clickable="true"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/rotate_right_jegamez"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1.0"
+                    android:contentDescription="rotate right Button"
+                    style="@android:style/Widget.ImageWell" />
+            </LinearLayout>
+            <View
+                android:id="@id/spacerl0"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_weight="0.1" />
+            <ImageButton
+                android:id="@id/hardDropButton"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:src="@drawable/hard_drop_jegamez"
+                android:scaleType="centerInside"
+                android:layout_weight="1.0"
+                android:contentDescription="Hard Drop Button"
+                style="@android:style/Widget.ImageWell" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.05" />
+</LinearLayout>
