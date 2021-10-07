@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:installLocation="internalOnly"
+    android:compileSdkVersion="31"
+    android:compileSdkVersionCodename="12"
+    package="github.jhunrel25.tetris"
+    platformBuildVersionCode="31"
+    platformBuildVersionName="12"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission
+        android:name="android.permission.VIBRATE" />
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:xlargeScreens="true" />
+    <application
+        android:theme="@style/AppTheme"
+        android:label="Tetris™"
+        android:icon="@drawable/tetris_jegamez"
+        android:allowBackup="true">
+        <activity
+            android:theme="@style/AppTheme"
+            android:label="Tetris™"
+            android:icon="@drawable/tetris_jegamez"
+            android:name="github.jhunrel25.tetris.activities.MainActivity"
+            android:configChanges="orientation|screenLayout|screenSize">
+            <meta-data
+                android:name="role"
+                android:value="entry" />
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:label="@string/title_activity_game"
+            android:name="github.jhunrel25.tetris.activities.GameActivity" />
+        <activity
+            android:label="@string/title_activity_settings"
+            android:icon="@drawable/settings_jegamez"
+            android:name="github.jhunrel25.tetris.activities.SettingsActivity" />
+        <activity
+            android:label="@string/pref_category_advanced"
+            android:icon="@drawable/settings_jegamez"
+            android:name="github.jhunrel25.tetris.activities.AdvancedSettingsActivity" />
+        <activity
+            android:label="@string/title_activity_about"
+            android:icon="@drawable/tetris_jegamez"
+            android:name="github.jhunrel25.tetris.activities.AboutActivity" />
+        <activity
+            android:label="@string/title_activity_help"
+            android:name="github.jhunrel25.tetris.activities.HelpActivity" />
+        <activity
+            android:name="com.entrance.jhunrel_evangelista.MainActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
