@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/settings_jegamez"
+        android:enabled="true"
+        android:id="@id/action_settings"
+        android:orderInCategory="1"
+        android:title="@string/action_settings" />
+    <item
+        android:enabled="true"
+        android:id="@id/action_about"
+        android:orderInCategory="2"
+        android:title="@string/action_about" />
+    <item
+        android:enabled="true"
+        android:id="@id/action_donate"
+        android:orderInCategory="3"
+        android:title="@string/action_donate" />
+    <item
+        android:enabled="true"
+        android:id="@id/action_help"
+        android:orderInCategory="4"
+        android:title="@string/action_help" />
+</menu>
