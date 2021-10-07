@@ -1,0 +1,134 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA1-Digest: wiC8mMGY5bfIHd/zsZJ68lg49xY=
+
+Name: classes.dex
+SHA1-Digest: lUYWmFoJpe/+dwm+KDDoSKOz4Ig=
+
+Name: res/drawable-hdpi-v4/settings_jegamez.png
+SHA1-Digest: vkKY14xA6okRWEvNPyw2n9H9NWQ=
+
+Name: res/drawable-hdpi-v4/tetris_jegamez.png
+SHA1-Digest: obI1Q883rgI5irzR2EZrRQkks3s=
+
+Name: res/drawable-mdpi-v4/settings_jegamez.png
+SHA1-Digest: vkKY14xA6okRWEvNPyw2n9H9NWQ=
+
+Name: res/drawable-mdpi-v4/tetris_jegamez.png
+SHA1-Digest: obI1Q883rgI5irzR2EZrRQkks3s=
+
+Name: res/drawable-xhdpi-v4/settings_jegamez.png
+SHA1-Digest: vkKY14xA6okRWEvNPyw2n9H9NWQ=
+
+Name: res/drawable-xhdpi-v4/tetris_jegamez.png
+SHA1-Digest: obI1Q883rgI5irzR2EZrRQkks3s=
+
+Name: res/drawable-xxhdpi-v4/tetris_jegamez.png
+SHA1-Digest: obI1Q883rgI5irzR2EZrRQkks3s=
+
+Name: res/drawable/hard_drop_jegamez.png
+SHA1-Digest: yM/KPxn88S9wAhD/Y0JL2qfmg2k=
+
+Name: res/drawable/hard_drop_jegamez_hd.png
+SHA1-Digest: yM/KPxn88S9wAhD/Y0JL2qfmg2k=
+
+Name: res/drawable/jhunrel_evangelista.jpg
+SHA1-Digest: 2yIoaVAVyIPfDUdfYCKtKY9N9Ig=
+
+Name: res/drawable/left_jegamez.png
+SHA1-Digest: 2oi2YylHiYDBTEsHWZt7AMcMIMA=
+
+Name: res/drawable/left_jegamez_hd.png
+SHA1-Digest: 2oi2YylHiYDBTEsHWZt7AMcMIMA=
+
+Name: res/drawable/right_jegamez.png
+SHA1-Digest: zw/knVWmf6Z/2BWmhcvBY1dYsMU=
+
+Name: res/drawable/right_jegamez_hd.png
+SHA1-Digest: zw/knVWmf6Z/2BWmhcvBY1dYsMU=
+
+Name: res/drawable/rotate_left_jegamez.png
+SHA1-Digest: Tui/dDbvq5oYhi5wEpNpN6Pc8P0=
+
+Name: res/drawable/rotate_left_jegamez_hd.png
+SHA1-Digest: Tui/dDbvq5oYhi5wEpNpN6Pc8P0=
+
+Name: res/drawable/rotate_right_jegamez.png
+SHA1-Digest: B8RrztKjP5NWMtYgORnfq/IclJE=
+
+Name: res/drawable/rotate_right_jegamez_hd.png
+SHA1-Digest: B8RrztKjP5NWMtYgORnfq/IclJE=
+
+Name: res/drawable/soft_drop_jegamez.png
+SHA1-Digest: kHZEUx3kcLvfl8byUA2rRzWS7Cg=
+
+Name: res/drawable/soft_drop_jegamez_hd.png
+SHA1-Digest: kHZEUx3kcLvfl8byUA2rRzWS7Cg=
+
+Name: res/layout-land/activity_game.xml
+SHA1-Digest: UfxDK6ulEZ6EF9qKjvLtFgkGSBU=
+
+Name: res/layout-port/activity_game.xml
+SHA1-Digest: a9PT/rDoDcSjfQZBwLWSFE+N9Hc=
+
+Name: res/layout-v17/jhunrel_evangelista_activity_main.xml
+SHA1-Digest: NGVcMjuBOTC3N/cREA/Zaji2Lic=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: sM7pva7+LwTnkKAW/IsqaKREtWo=
+
+Name: res/layout/jhunrel_evangelista_activity_main.xml
+SHA1-Digest: l+2rk88wxWSPRjn3Xb4pTehlwSI=
+
+Name: res/layout/seek_bar_dialog.xml
+SHA1-Digest: dEkqXUNPqf84+dit3n1t+jV0hMM=
+
+Name: res/layout/seek_bar_preference.xml
+SHA1-Digest: wlTcoj+ag6AUujnQXBVw/78nG84=
+
+Name: res/layout/tetris_list_item.xml
+SHA1-Digest: viFk7Z6MAVm/h/DK1+RmFB1uukk=
+
+Name: res/menu-v11/main.xml
+SHA1-Digest: YJ7EUEnxFK8cgWqSNykKhmtOi/I=
+
+Name: res/menu/main.xml
+SHA1-Digest: 2TCeW66WWImwhBDskEHAciWIh04=
+
+Name: res/raw/button_sound_jegamez.ogg
+SHA1-Digest: LdDd9mIGg0stS6hcA2YqyFMchtA=
+
+Name: res/raw/drop_sound_jegamez.ogg
+SHA1-Digest: NpQ0dqXPJr31/cPt5zOHuRb3HBI=
+
+Name: res/raw/gamemusicfile_by_jhunrel25.ogg
+SHA1-Digest: ZJTJu1FB250uZU1WCN42xSyGHnc=
+
+Name: res/raw/gameover_jegamez.ogg
+SHA1-Digest: ZH5N2+GNjO2/LqlzzM761NUITI0=
+
+Name: res/raw/line_clears_jegamez.ogg
+SHA1-Digest: f5CVEoWZxjpXaEt8heLzEppwLEI=
+
+Name: res/raw/mainmusicfile_by_jhunrel25.ogg
+SHA1-Digest: kOS3M9B4RMTf3pQBExNjhWMLdeE=
+
+Name: res/raw/tetris_clears_jegamez.ogg
+SHA1-Digest: KzytDdJc4Pr7Jgy/llxRodyyLGc=
+
+Name: res/xml/about_menu.xml
+SHA1-Digest: c3ro1duyxsJahJNIhJ/x3Zx+vIg=
+
+Name: res/xml/advanced_preferences.xml
+SHA1-Digest: p23TjiHkV18otoxb6zMliKaVnsI=
+
+Name: res/xml/help_menu.xml
+SHA1-Digest: sWTq7S5um2dlxj1I+vmSRiI0mXE=
+
+Name: res/xml/simple_preferences.xml
+SHA1-Digest: S7PqfLf8WA3rWBt9snZLFjibgk0=
+
+Name: resources.arsc
+SHA1-Digest: uUrCrKu+zj9vF6DqLZsFg2dbU6I=
+
