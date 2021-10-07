@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="spalten">10</integer>
+    <integer name="zeilen">18</integer>
+    <integer name="spaltenoffset">35</integer>
+    <integer name="zeilenoffset">0</integer>
+    <integer name="padding_columns">2</integer>
+    <integer name="phantom_alpha">93</integer>
+    <integer name="textalpha">192</integer>
+    <integer name="piece_start_x">3</integer>
+    <integer name="spawn_delay">200</integer>
+    <integer name="singleLineScore">100</integer>
+    <integer name="doubleLineScore">300</integer>
+    <integer name="trippleLineScore">500</integer>
+    <integer name="quadLineScore">800</integer>
+    <integer name="multiTetrisScore">1200</integer>
+    <integer name="softDropBonus">1</integer>
+    <integer name="hardDropBonus">2</integer>
+    <integer name="shortVibeInterval">100</integer>
+    <integer name="audio_streams">16</integer>
+    <integer name="popup_attack">125</integer>
+    <integer name="popup_sustain">1050</integer>
+    <integer name="popup_decay">300</integer>
+    <integer name="clearAnimation_enableFlash">1</integer>
+    <integer name="clearAnimation_flashCount">3</integer>
+    <integer name="clearAnimation_flashInterval">200</integer>
+    <integer name="clearAnimation_enableBurst">0</integer>
+    <integer name="clearAnimation_burstDuration">200</integer>
+    <integer name="levels">30</integer>
+    <integer name="levelsplusone">31</integer>
+</resources>

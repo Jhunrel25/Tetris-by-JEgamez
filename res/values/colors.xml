@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="standardGameBackground">#ff303030</color>
+    <color name="square_blue">#ffff9aa2</color>
+    <color name="square_orange">#ffc7ceea</color>
+    <color name="square_yellow">#ffe2f0cb</color>
+    <color name="square_red">#ffffb7b2</color>
+    <color name="square_green">#ffb5ead7</color>
+    <color name="square_magenta">#ffe0bbe4</color>
+    <color name="square_cyan">#ffffdac1</color>
+    <color name="square_empty">#00000000</color>
+    <color name="square_error">#ffffffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="darkbluegreen">#ff408080</color>
+    <color name="yellow">#ffff9aa2</color>
+    <color name="transparent">#00000000</color>
+    <color name="holo_grey">#ff4d4d4d</color>
+</resources>
