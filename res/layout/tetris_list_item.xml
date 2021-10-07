@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/tetris_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="30.0sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:id="@id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:textSize="18.0sp"
+        android:textStyle="normal"
+        android:id="@id/text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_below="@id/text1"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>
